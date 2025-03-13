@@ -32,7 +32,7 @@ class ContaBancaria{
             }
             
             this.saldo -= sacarDinheiro
-            console.log(`Saque de ${sacarDinheiro} foi realizado com sucessso! Saldo atul de ${this.saldo}`)
+            console.log(`Saque de ${sacarDinheiro} foi realizado com sucessso! Saldo atual de ${this.saldo}`)
         }
         catch(erro){
             console.error(erro);
